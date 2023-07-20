@@ -231,7 +231,7 @@ a {
 
 .icon{
     background: #f56131;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
 }
 
@@ -280,13 +280,13 @@ a {
     position: relative;
     right: 48%;
     max-width: 285px;
-    top: 197px;
+    top: 130px;
     width: 100%;
 }
 
-.col-2{
+ #articale .col-2{
     padding-bottom:20px ;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .ipad-app h3{
@@ -365,7 +365,7 @@ a {
     position: relative;
     right: -48%;
     max-width: 193px;
-    top: 134px;
+    top: 81px;
     width: 100%;
 }
 /* =====================Mobile-app section ENd=====================  */
@@ -418,6 +418,142 @@ a {
 #greating{
     background: linear-gradient(#2f2339a3,#2f2339a3),url(img/background.png);
     background-position: center;
-    height: 300px;
     width: 100%;
+}
+
+.center{
+    text-align: center;
+    width: 600px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+.greating-text h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.greating-text h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.greating-text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'lato', sans-serif;
+    line-height: 1.4;
+    letter-spacing: normal;
+}
+
+.touch-content{
+    flex-direction: column;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#contact{
+    padding: 50px 0;
+}
+
+.icon-2{
+    background: #f56131;
+    margin-right: 20px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-2 i{
+font-size: 30PX;
+color: #fff;
+}
+
+.item{
+    flex-basis: 50%;
+}
+.item h2{
+    color: #2d2d2d;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'lato' sans-serif;
+    margin-bottom: 20px;
+}
+.contact-text h4{
+    color: #2d2d2d;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+.contact-text p{
+    font-size: 14px;
+    color:#2d2d2d;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-box div{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.form-box div label{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #2d2d2d;
+    padding-right: 40px;
+}
+
+.form-box input, 
+textarea{
+    
+    border: 0;
+    border-bottom: 2px solid #c81c1c;
+    outline: none;
+}
+
+#msg-btn{
+    background: #f56131;
+    padding: 10px 30px;
+    border: 0;
+    margin-top: 30px;
+}
+
+
+footer{
+    background: #2f2339;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer div p{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
 }
